@@ -1,32 +1,46 @@
-/* index */
+@media screen and (max-width: 950px) {
+  .header-item {
+   background-color: var(--color-gray6);
+   bottom: 0;
+   margin: 0;
+   width: 100%;
+   z-index: 101;
+   display: flex;
+   justify-content: space-around;
+ }
+}
+
+
+
+/* home */
 
 @media screen and (max-width: 1400px) {
-  .index > .container-index > .right-con-index h1 {
+  .home > .container-home > .right-con-home h1 {
     font-size: 1.5rem;
   }
-  .index > .container-index > .right-con-index p {
+  .home > .container-home > .right-con-home p {
     font-size: 1.3rem;
   }
 }
 @media screen and (max-width: 1250px) {
-  .index > .container-index > .right-con-index {
+  .home > .container-home > .right-con-home {
     padding-left: 8rem;
     padding-right: 5rem;
   }
 }
 @media screen and (max-width: 1150px) {
-  .index > .container-index > .right-con-index {
+  .home > .container-home > .right-con-home {
     padding-left: 5rem;
   }
 }
 @media screen and (max-width: 1100px) {
-  .index > .container-index > .left-con-index > .imge-index > img {
+  .home > .container-home > .left-con-home > .imge-home > img {
     margin-left: 0rem;
   }
-  .index > .container-index > .left-con-index > .bac-color-index {
+  .home > .container-home > .left-con-home > .bac-color-home {
     display: none !important;
   }
-  .index > .container-index {
+  .home > .container-home {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,26 +49,16 @@
     padding-bottom: 6rem;
   }
 }
-@media screen and (max-width: 950px) {
-   .header-item {
-    background-color: var(--color-gray6);
-    bottom: 0;
-    margin: 0;
-    width: 100%;
-    z-index: 101;
-    display: flex;
-    justify-content: space-around;
-  }
-}
+
 @media screen and (max-width: 600px) {
-  .index > .container-index > .left-con-index > .imge-index img {
+  .home > .container-home > .left-con-home > .imge-home img {
     width: 20rem;
     height: 25rem;
   }
-  .index > .container-index > .right-con-index h1 {
+  .home > .container-home > .right-con-home h1 {
     font-size: 1rem;
   }
-  .index > .container-index > .right-con-index p {
+  .home > .container-home > .right-con-home p {
     font-size: 0.8rem;
   }
 }
@@ -68,15 +72,7 @@
   .about .about-container .right-about{
     margin: 2rem 0;
   }
-   .header-item {
-    background-color: var(--color-gray6);
-    bottom: 0;
-    margin: 0 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    z-index: 101;
-  }
+
 
 }
 @media screen and (max-width: 1000px) {
@@ -131,11 +127,7 @@
   .about .about-container .left-about p{
     font-size: .5rem ;
   }
-  .header-item i{
-    font-size: .5rem ;
-    padding: .5rem;
-    margin: .5rem;
-  }
+ 
 
 
 }
@@ -176,15 +168,7 @@
   .portfolio > .portfolio-container {
     padding-bottom: 6rem !important;
   }
-   .header-item {
-    bottom: 0;
-    margin: 0 0;
-    width: 100%;
-    background-color: var(--color-gray6);
-    z-index: 101;
-    display: flex;
-    justify-content: space-around;
-  }
+
 }
 @media screen and (max-width: 950px) {
   .portfolio > .portfolio-container {
@@ -253,15 +237,7 @@
     padding: 2rem 25rem;
     padding-bottom: 6rem;
   }
-   .header-item {
-    bottom: 0;
-    margin: 0 0;
-    width: 100%;
-    background-color: var(--color-gray6);
-    z-index: 101;
-    display: flex;
-    justify-content: space-around;
-  }
+
 }
 @media screen and (max-width: 1000px) {
   .my-blogs > .blogs-container {
@@ -339,15 +315,7 @@
     > p {
     padding-left: 5rem !important;
   }
-   .header-item {
-    display: flex;
-    justify-content: space-around;
-    bottom: 0;
-    margin: 0 0;
-    background-color: var(--color-gray6);
-    width: 100%;
-    z-index: 101;
-  }
+   
   .contact-me > .contact-all-container > .form-login-contact {
     width: 90%;
   }
