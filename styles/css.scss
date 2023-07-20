@@ -95,18 +95,18 @@ body {
   }
 }
 
-// index //
+// home //
 
-.index {
+.home {
   overflow: hidden;
   height: 100%;
   width: 100%;
-    .container-index {
+    .container-home {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    .left-con-index {
+    .left-con-home {
       display: flex;
-      .bac-color-index {
+      .bac-color-home {
         position: fixed;
         background-color: var(--color-green);
         width: 500px;
@@ -114,7 +114,7 @@ body {
         clip-path: polygon(0 0, 35% 0, 70% 100%, 0% 100%);
         z-index: -1;
       }
-      .imge-index > img {
+      .imge-home > img {
         object-fit: cover;
         width: 28rem;
         height: 32rem;
@@ -129,7 +129,7 @@ body {
         }
       }
     }
-    .right-con-index {
+    .right-con-home {
       margin-top: 5rem;
       padding-right: 10rem;
       h1 {
@@ -144,7 +144,7 @@ body {
         color: var(--color-gray1);
         margin-top: 50px;
       }
-      .btn-don-index {
+      .btn-don-home {
         padding-top: 2rem;
         font-size: 1.3rem;
         a {

@@ -10,25 +10,25 @@ document.getElementById("change-theme").addEventListener("click", (e) => {
   }
 });
 
-let index = document.getElementById('index')
+let home = document.getElementById('home')
 let about = document.getElementById('about')
 let portfolio = document.getElementById('portfolio')
 let myBlogs = document.getElementById('myBlogs')
 let contactMe = document.getElementById('contactMe')
 
-function indexClick(){
-  if (index.style.display === "none") {  
+function homeClick(){
+  if (home.style.display === "none") {  
     about.style.display = "none";
     portfolio.style.display = "none";
     myBlogs.style.display = "none";
     contactMe.style.display = "none";
-    index.style.display = "block";
+    home.style.display = "block";
   }
 }
 
 function aboutClick(){
   if (about.style.display === "none") {  
-    index.style.display = "none";
+    home.style.display = "none";
     portfolio.style.display = "none";
     myBlogs.style.display = "none";
     contactMe.style.display = "none";
@@ -38,7 +38,7 @@ function aboutClick(){
 
 function portfolioClick(){
   if (portfolio.style.display === "none") {  
-    index.style.display = "none";
+    home.style.display = "none";
     about.style.display = "none";
     myBlogs.style.display = "none";
     contactMe.style.display = "none";
@@ -47,7 +47,7 @@ function portfolioClick(){
 }
 function myBlogsClick(){
   if (myBlogs.style.display === "none") {  
-    index.style.display = "none";
+    home.style.display = "none";
     portfolio.style.display = "none";
     contactMe.style.display = "none";
     about.style.display = "none";
@@ -56,7 +56,7 @@ function myBlogsClick(){
 }
 function contactMeClick(){
   if (contactMe.style.display === "none") {  
-    index.style.display = "none";
+    home.style.display = "none";
     portfolio.style.display = "none";
     about.style.display = "none";
     myBlogs.style.display = "none";

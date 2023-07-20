@@ -93,19 +93,19 @@ body {
   color: var(--color-green);
 }
 
-.index {
+.home {
   overflow: hidden;
   height: 100%;
   width: 100%;
 }
-.index .container-index {
+.home .container-home {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.index .container-index .left-con-index {
+.home .container-home .left-con-home {
   display: flex;
 }
-.index .container-index .left-con-index .bac-color-index {
+.home .container-home .left-con-home .bac-color-home {
   position: fixed;
   background-color: var(--color-green);
   width: 500px;
@@ -114,7 +114,7 @@ body {
           clip-path: polygon(0 0, 35% 0, 70% 100%, 0% 100%);
   z-index: -1;
 }
-.index .container-index .left-con-index .imge-index > img {
+.home .container-home .left-con-home .imge-home > img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 28rem;
@@ -125,31 +125,31 @@ body {
   filter: grayscale(90%);
   transition: all 0.8s ease-in-out;
 }
-.index .container-index .left-con-index .imge-index > img:hover {
+.home .container-home .left-con-home .imge-home > img:hover {
   filter: grayscale(20%);
   transition: all 0.8s ease-in-out;
 }
-.index .container-index .right-con-index {
+.home .container-home .right-con-home {
   margin-top: 5rem;
   padding-right: 10rem;
 }
-.index .container-index .right-con-index h1 {
+.home .container-home .right-con-home h1 {
   font-size: 3rem;
   color: var(--color-gray1);
 }
-.index .container-index .right-con-index h1 span {
+.home .container-home .right-con-home h1 span {
   color: var(--color-green);
 }
-.index .container-index .right-con-index p {
+.home .container-home .right-con-home p {
   font-size: 1.5rem;
   color: var(--color-gray1);
   margin-top: 50px;
 }
-.index .container-index .right-con-index .btn-don-index {
+.home .container-home .right-con-home .btn-don-home {
   padding-top: 2rem;
   font-size: 1.3rem;
 }
-.index .container-index .right-con-index .btn-don-index a {
+.home .container-home .right-con-home .btn-don-home a {
   border: 1px solid var(--color-green);
   padding: 0.3rem 0.6rem;
   color: var(--color-gray1);
@@ -160,14 +160,14 @@ body {
   background-size: 200%;
   background-position: 0% 100%;
 }
-.index .container-index .right-con-index .btn-don-index i {
+.home .container-home .right-con-home .btn-don-home i {
   padding: 0.5rem 0.5rem;
   margin-right: -11px;
   border: 1px solid var(--color-green);
   background-color: var(--color-green);
   border-radius: 50%;
 }
-.index .container-index .right-con-index .btn-don-index a:hover {
+.home .container-home .right-con-home .btn-don-home a:hover {
   background-position: 100% 100%;
 }
 
