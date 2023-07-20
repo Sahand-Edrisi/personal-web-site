@@ -7,8 +7,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-:root {
-  --color-green: #2baa6b;
+.light-theme {
+  --color-green: #22ab67;
   --color-white: #ffffff;
   --color-black: #000000;
   --color-gray1: #e0e0e0;
@@ -21,6 +21,20 @@
   --color-gray8: #303030;
 }
 
+.dark-theme {
+  --color-green: #d6a417;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray1: #141111;
+  --color-gray2: #c0c0c0;
+  --color-gray3: #a0a0a0;
+  --color-gray4: #808080;
+  --color-gray5: #606060;
+  --color-gray6: #404040;
+  --color-gray7: #e7e9ee;
+  --color-gray8: #303030;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--color-gray7);
@@ -30,19 +44,27 @@ body {
 .header-item {
   position: fixed;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
   right: 0;
   margin: 6rem 1.5rem;
+  z-index: 101;
 }
-.header-item i {
-  font-size: 1rem;
+.header-item button {
   border-radius: 50%;
-  color: var(--color-gray2);
   background-color: var(--color-gray4);
-  padding: 1rem 1rem;
-  margin: 1rem;
+  border: none;
+  margin: 0.5rem;
+  color: var(--color-gray2);
 }
-.header-item i:hover {
+.header-item button i {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.header-item button:focus {
+  background-color: var(--color-green);
+  color: var(--color-white);
+}
+.header-item button:hover {
   background-color: var(--color-green);
   color: var(--color-white);
 }
@@ -51,7 +73,9 @@ body {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
-  padding-top: 50px;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
 }
 .main-titel h1 {
   position: absolute;
@@ -63,7 +87,7 @@ body {
 .main-titel h2 {
   padding: 1.5rem 4.5rem;
   font-size: 4.5rem;
-  color: var(--color-white);
+  color: var(--color-gray1);
 }
 .main-titel h2 span {
   color: var(--color-green);
@@ -155,18 +179,17 @@ body {
 }
 .about .about-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 100%;
-  height: 100%;
+  grid-template-columns: auto auto;
 }
 .about .about-container .right-about {
+  margin-right: 6rem;
+}
+.about .about-container .right-about .right-about-item {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: auto auto;
   width: 100%;
   height: 100%;
-  margin-left: 3rem;
-  padding-right: 6rem;
-  margin-bottom: 5rem;
+  justify-content: space-around;
 }
 .about .about-container .right-about .container-about-right {
   transition: all 2s ease-out;
@@ -318,7 +341,8 @@ body {
 }
 .about .timeline-item {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: auto auto;
+  justify-content: space-around;
   margin-bottom: 10rem;
   width: 100%;
 }
