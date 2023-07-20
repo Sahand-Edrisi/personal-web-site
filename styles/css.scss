@@ -6,6 +6,20 @@
   font-family: "Martian Mono", monospace;
   font-family: "Poppins", sans-serif;
 }
+
+// scrollbar
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-gray7);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-green);
+  border-radius: 10px;
+}
+
 .light-theme {
   --color-green: #22ab67;
   --color-white: #ffffff;
@@ -52,19 +66,18 @@ body {
     border: none;
     margin: .5rem;
     color: var(--color-gray2);
-    
     i{
-      font-size: 1rem;
-      padding: .5rem;
+      font-size: 1.2rem;
+      padding: .5rem ;
       margin: .5rem;
     }
+    
   }
-  button:focus{
-    background-color: var(--color-green);
-    color: var(--color-white);    
+  .btn-change-item{
+    color: var(--color-green);
   }
   
-  button:hover{
+  .active{
     background-color: var(--color-green);
     color: var(--color-white);
   }

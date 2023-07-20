@@ -7,6 +7,19 @@
   font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-gray7);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-green);
+  border-radius: 10px;
+}
+
 .light-theme {
   --color-green: #22ab67;
   --color-white: #ffffff;
@@ -56,15 +69,14 @@ body {
   color: var(--color-gray2);
 }
 .header-item button i {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0.5rem;
   margin: 0.5rem;
 }
-.header-item button:focus {
-  background-color: var(--color-green);
-  color: var(--color-white);
+.header-item .btn-change-item {
+  color: var(--color-green);
 }
-.header-item button:hover {
+.header-item .active {
   background-color: var(--color-green);
   color: var(--color-white);
 }
