@@ -1,13 +1,11 @@
-
 // cheange-theme
 
-document.body.classList.add("light-theme");
+document.body.classList.add("dark-theme");
 document.getElementById("change-theme").addEventListener("click", (e) => {
-  if (document.body.classList.contains("light-theme")) {
-    document.body.classList.replace("light-theme", "dark-theme");
-   
-  } else {
+  if (document.body.classList.contains("dark-theme")) {
     document.body.classList.replace("dark-theme", "light-theme");
+  } else {
+    document.body.classList.replace("light-theme", "dark-theme");
   }
 });
 

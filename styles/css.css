@@ -17,7 +17,7 @@
   border-radius: 10px;
 }
 
-.light-theme {
+.dark-theme {
   --color-green: #22ab67;
   --color-white: #ffffff;
   --color-black: #000000;
@@ -31,7 +31,7 @@
   --color-gray8: #303030;
 }
 
-.dark-theme {
+.light-theme {
   --color-green: #d6a417;
   --color-white: #ffffff;
   --color-black: #000000;
