@@ -111,12 +111,7 @@ padding: 0 2rem;
     padding-left: 1rem !important ;
     grid-template-columns: repeat(1, 1fr);
   }
-  .about > .stat-titel > .line-stat {
-    margin: 2rem 20%;
-  }
-  .about > .stat-titel > .My-skills {
-    margin: 1rem 35%;
-  }
+ 
   .about .timeline-item .ti-it .tl-text h1{
     font-size: 1rem;
   }
@@ -129,7 +124,7 @@ padding: 0 2rem;
 @media screen and (max-width: 600px) {
   .about .about-container .right-about .right-about-item{
     grid-template-columns: auto;
-    margin: 5.5rem 0 !important;
+    margin: .5rem 0 !important;
   }
 
   .about .about-container .left-about {
@@ -154,6 +149,9 @@ padding: 0 2rem;
   }
   .about .about-container .left-about p{
     font-size: .5rem ;
+  }
+  .about .about-container .left-about .btn-don-about a{
+    font-size: .8rem;
   }
 }
 @media screen and (max-width: 400px) {

@@ -92,7 +92,7 @@ body {
     position: absolute;
     opacity: 0.3;
     z-index: -1;
-    font-size: 6.5rem;
+    font-size: 7.5rem;
     color: var(--color-gray5);
   }
   h2 {
@@ -294,20 +294,19 @@ body {
     text-transform: uppercase;
     height: 100%;
     width: 100%;
-    .line-stat {
-      border: 1px solid var(--color-gray6);
-      width: 50%;
-      height: 0;
-      opacity: 0.7;
-      margin: 2rem 25%;
+    .line-hr{
+    height: .5rem;
+      margin: 3rem 7rem;
+      background-color: var(--color-green);
+    
     }
     .My-skills {
       color: var(--color-gray1);
-      padding-top: 1rem;
       font-size: 1.5rem;
       font-weight: 900;
       width: 100%;
-      margin: 2rem 45%;
+      margin: 2rem 0;
+      text-align: center;
     }
   }
 

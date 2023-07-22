@@ -90,7 +90,7 @@ body {
   position: absolute;
   opacity: 0.3;
   z-index: -1;
-  font-size: 6.5rem;
+  font-size: 7.5rem;
   color: var(--color-gray5);
 }
 .main-titel h2 {
@@ -281,20 +281,18 @@ body {
   height: 100%;
   width: 100%;
 }
-.about .stat-titel .line-stat {
-  border: 1px solid var(--color-gray6);
-  width: 50%;
-  height: 0;
-  opacity: 0.7;
-  margin: 2rem 25%;
+.about .stat-titel .line-hr {
+  height: 0.5rem;
+  margin: 3rem 7rem;
+  background-color: var(--color-green);
 }
 .about .stat-titel .My-skills {
   color: var(--color-gray1);
-  padding-top: 1rem;
   font-size: 1.5rem;
   font-weight: 900;
   width: 100%;
-  margin: 2rem 45%;
+  margin: 2rem 0;
+  text-align: center;
 }
 .about .progress-bar-item {
   display: grid;
