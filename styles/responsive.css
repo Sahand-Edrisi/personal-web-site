@@ -8,6 +8,7 @@
    display: flex;
    justify-content: space-around;
  }
+
 }
 @media screen and (max-width: 500px) {
   .header-item button i{
@@ -183,264 +184,141 @@ width: 15rem;  }
 
 /* portfolio */
 
-@media screen and (max-width: 1300px) {
-  .portfolio > .portfolio-container {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 18rem;
-  }
-}
+
 @media screen and (max-width: 1200px) {
   .portfolio > .portfolio-container {
-    padding: 0 15rem;
-  }
-}
-@media screen and (max-width: 1100px) {
-  .portfolio > .portfolio-container {
-    padding: 0 10rem;
-  }
-  .portfolio > .portfolio-container {
-    padding-bottom: 6rem !important;
+    grid-template-columns: auto auto;
+
   }
 
 }
-@media screen and (max-width: 950px) {
-  .portfolio > .portfolio-container {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 0 18rem;
-    padding-bottom: 7rem;
-  }
-}
+
+
 @media screen and (max-width: 800px) {
   .portfolio > .portfolio-container {
-    padding: 0 15rem;
-    padding-bottom: 7rem;
+    grid-template-columns: auto;
+   
   }
   .portfolio > .titel {
-    padding-left: 1rem;
+    font-size: .8rem;
   }
 }
-@media screen and (max-width: 700px) {
-  .portfolio > .portfolio-container {
-    padding: 0 10rem;
-    padding-bottom: 7rem;
-  }
-}
-@media screen and (max-width: 600px) {
-  .portfolio > .portfolio-container {
-    padding: 0 5rem;
-    padding-bottom: 7rem;
-  }
-}
+
 @media screen and (max-width: 500px) {
   .portfolio > .main-titel > h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   .portfolio > .main-titel > h2 {
-    font-size: 3rem;
-  }
-  .portfolio > .portfolio-container {
-    padding: 0 2rem;
-    padding-bottom: 7rem;
+    font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 400px) {
   .portfolio > .main-titel > h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .portfolio > .main-titel > h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
-  .portfolio > .portfolio-container {
-    padding: 0 0rem;
-    padding-bottom: 6rem;
-  }
+
 }
 
 /* My Blogs */
 
-@media screen and (max-width: 1100px) {
-  .my-blogs > .blogs-container {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2rem 13rem;
-  }
-}
 @media screen and (max-width: 1150px) {
   .my-blogs > .blogs-container {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 2rem 25rem;
-    padding-bottom: 6rem;
+    grid-template-columns: auto auto;
   }
+}
 
-}
-@media screen and (max-width: 1000px) {
-  .my-blogs > .blogs-container {
-    padding: 2rem 20rem;
-  }
-}
+
 @media screen and (max-width: 850px) {
   .my-blogs > .blogs-container {
-    padding: 2rem 15rem;
+    grid-template-columns: auto;
+  
   }
 }
-@media screen and (max-width: 750px) {
-  .my-blogs > .blogs-container {
-    padding: 2rem 10rem;
-  }
-}
+
 @media screen and (max-width: 550px) {
-  .my-blogs > .blogs-container {
-    padding: 2rem 5rem;
-  }
+
   .my-blogs > .main-titel > h1 {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
   }
   .my-blogs > .main-titel > h2 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 450px) {
-  .my-blogs > .blogs-container {
-    padding: 2rem 2rem;
-  }
+
   .my-blogs > .main-titel > h1 {
-    font-size: 4.5rem;
-  }
-  .my-blogs > .main-titel > h2 {
     font-size: 3rem;
   }
-}
-@media screen and (max-width: 380px) {
-  .my-blogs {
-    position: relative;
-  }
-  .my-blogs > .blogs-container {
-    padding: 2rem 1rem;
-  }
-  .my-blogs > .main-titel > h1 {
-    font-size: 3.5rem;
-  }
   .my-blogs > .main-titel > h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
+
 
 /* Contact */
+@media screen and (max-width: 950px){
+  .contact-me .contact-all-container .Contact-container .header p{
+    width: 100%;
+  }
+  .contact-me .contact-all-container{
+    margin: 0 2rem;
+    margin-bottom: 6rem;
+  }
+}
 
-@media screen and (max-width: 1350px) {
-  .contact-me
-    > .contact-all-container
-    > .Contact-item-all
-    > .contact-item
-    > .contact-Description
-    > p {
-    padding-left: 8rem !important;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .contact-me > .contact-all-container {
-    padding-bottom: 6.5rem;
-  }
-  .contact-me
-    > .contact-all-container
-    > .Contact-item-all
-    > .contact-item
-    > .contact-Description
-    > p {
-    padding-left: 5rem !important;
-  }
-   
-  .contact-me > .contact-all-container > .form-login-contact {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 860px) {
-  .contact-me
-    > .contact-all-container
-    > .Contact-item-all
-    > .contact-item
-    > .contact-Description
-    > p {
-    padding-left: 0rem !important;
-  }
-}
-@media screen and (max-width: 700px) {
-  .contact-me > .contact-all-container {
-    padding: 0.5rem !important;
-    padding-bottom: 6.5rem !important;
-  }
-  .contact-me > .main-titel > h1 {
-    font-size: 5.5rem;
-  }
-  .contact-me > .main-titel > h2 {
-    font-size: 4rem;
-  }
-}
-@media screen and (max-width: 550px) {
-  .contact-me > .contact-all-container {
-    padding: 0.5rem !important;
-    padding-bottom: 6.5rem !important;
-  }
+
+@media screen and (max-width: 650px) {
+ 
   .contact-me > .main-titel > h1 {
     font-size: 4.5rem;
   }
   .contact-me > .main-titel > h2 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-all-container .Contact-container .header h1{
+    font-size: 1.5rem !important;
+  }
+  .contact-all-container .Contact-container .header p{
+    font-size: .8rem !important;
+  }
+  .contact-item .contact-icon i{
+    font-size: .8rem !important;
+  }
+  .contact-item .contact-icon span{
+    font-size: 0.7rem !important;
+
+  }
+  .contact-item .contact-Description p{
+    font-size: .5rem !important;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  .contact-me .contact-all-container .Contact-item-all .contact-item{
+    grid-template-columns: auto;
+    margin: 1.5rem 0;
+  }
+
+  .contact-me .contact-all-container .Contact-item-all .contact-item .contact-icon {
+    margin: 1rem 0rem;
+    justify-content: flex-start;
+  }
+  .contact-me .contact-all-container .btn-don-contact a{
+    font-size: .8rem;
+  }
+
+  .contact-me > .main-titel > h1 {
     font-size: 3rem;
   }
-}
-@media screen and (max-width: 500px) {
-  .contact-me > .contact-all-container {
-    padding: 0.5rem !important;
-    padding-bottom: 6.5rem !important;
-  }
-  .contact-me > .main-titel > h1 {
-    font-size: 4rem;
-  }
   .contact-me > .main-titel > h2 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 }
-@media screen and (max-width: 420px) {
-  .contact-me > .contact-all-container {
-    padding: 0.5rem !important;
-    padding-bottom: 6.5rem !important;
-  }
-  .contact-me > .main-titel > h1 {
-    font-size: 3.5rem;
-  }
-  .contact-me > .main-titel > h2 {
-    font-size: 2rem;
-  }
-}
-@media screen and (max-width: 390px) {
-  .contact-me > .main-titel > h1 {
-    font-size: 3.5rem;
-  }
-  .contact-me > .main-titel > h2 {
-    font-size: 2.5rem;
-    padding: 1rem 4.5rem;
-  }
-  .contact-me
-    > .contact-all-container
-    > .Contact-item-all
-    > .contact-item
-    > .contact-icon
-    > i {
-    font-size: 0.8rem !important;
-  }
-  .contact-me
-    > .contact-all-container
-    > .Contact-item-all
-    > .contact-item
-    > .contact-icon
-    > span {
-    font-size: 0.7rem !important;
-  }
-  .contact-me
-    > .contact-all-container
-    > .Contact-item-all
-    > .contact-item
-    > .contact-Description
-    > p {
-    font-size: 0.7rem !important;
-  }
-}
+

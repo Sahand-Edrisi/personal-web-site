@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  @import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Poppins:wght@500&display=swap");
-  font-family: "Martian Mono", monospace;
-  font-family: "Poppins", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -417,19 +414,20 @@ body {
   height: 100%;
 }
 .portfolio .titel {
-  color: var(--color-white);
+  color: var(--color-gray1);
   display: flex;
   justify-content: center;
 }
 .portfolio .portfolio-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 2rem 5rem;
+  grid-template-columns: auto auto auto;
+  margin: 0rem 5rem;
+  margin-bottom: 8rem;
+  justify-content: space-evenly;
 }
 .portfolio .portfolio-item {
   display: flex;
-  padding-left: 1rem;
-  padding-top: 3rem;
+  margin: 2rem 0;
 }
 .portfolio .portfolio-image {
   width: 20rem;
@@ -442,7 +440,6 @@ body {
   height: 20rem;
   -o-object-fit: cover;
      object-fit: cover;
-  transition: 3s ease-in-out;
 }
 .portfolio .portfolio-hover {
   background-color: var(--color-green);
@@ -491,8 +488,10 @@ body {
 }
 .my-blogs .blogs-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 2rem 8rem;
+  grid-template-columns: auto auto auto;
+  margin: 0rem 5rem;
+  margin-bottom: 8rem;
+  justify-content: space-evenly;
 }
 .my-blogs .blogs-container .blogs-item {
   width: 20rem;
@@ -552,46 +551,58 @@ body {
   height: 100%;
 }
 .contact-me .contact-all-container {
-  padding: 1rem 10rem;
+  display: grid;
+  justify-content: space-around;
+  margin: 0 6rem;
+  margin-bottom: 5rem;
 }
 .contact-me .contact-all-container .Contact-container .header {
   padding: 2rem 0;
 }
 .contact-me .contact-all-container .Contact-container .header h1 {
-  color: var(--color-white);
+  color: var(--color-gray1);
   text-transform: uppercase;
   font-size: 2rem;
 }
 .contact-me .contact-all-container .Contact-container .header p {
-  color: var(--color-white);
+  color: var(--color-gray1);
   padding-top: 2rem;
   font-size: 1.1rem;
+  width: 80%;
 }
 .contact-me .contact-all-container .Contact-item-all .contact-item {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: auto auto;
+  justify-content: space-between;
 }
 .contact-me .contact-all-container .Contact-item-all .contact-item .contact-icon {
-  padding: 0.5rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
 }
 .contact-me .contact-all-container .Contact-item-all .contact-item .contact-icon i {
-  color: var(--color-white);
+  color: var(--color-gray1);
   font-size: 1.1rem;
 }
 .contact-me .contact-all-container .Contact-item-all .contact-item .contact-icon span {
+  color: var(--color-gray1);
   font-weight: 400;
-  color: #e0e0e0;
   font-size: 0.8rem;
   margin-left: 1rem;
 }
 .contact-me .contact-all-container .Contact-item-all .contact-item .contact-Description {
-  padding: 0.8rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 12rem;
 }
 .contact-me .contact-all-container .Contact-item-all .contact-item .contact-Description p {
-  color: var(--color-white);
+  color: var(--color-gray1);
   font-weight: 400;
   font-size: 0.8rem;
-  padding-left: 20rem;
+  width: 100%;
 }
 .contact-me .contact-all-container .icon-conact-me {
   display: flex;
@@ -607,7 +618,10 @@ body {
   margin: 1rem 0.5rem;
 }
 .contact-me .contact-all-container .form-login-contact {
-  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .contact-me .contact-all-container .form-login-contact input {
   background-color: var(--color-gray8);
