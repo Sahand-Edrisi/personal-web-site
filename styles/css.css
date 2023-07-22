@@ -289,7 +289,7 @@ body {
   margin: 2rem 25%;
 }
 .about .stat-titel .My-skills {
-  color: var(--color-white);
+  color: var(--color-gray1);
   padding-top: 1rem;
   font-size: 1.5rem;
   font-weight: 900;
@@ -306,14 +306,14 @@ body {
 }
 .about .progress-bar-item .progress-bar .name-bar {
   position: absolute;
-  color: var(--color-white);
+  color: var(--color-gray1);
   margin-left: 20px;
 }
 .about .progress-bar-item .progress-bar .Percentage {
   position: absolute;
   margin-top: 1rem;
   margin-left: 20px;
-  color: var(--color-white);
+  color: var(--color-gray1);
 }
 .about .progress-bar-item .progress-bar .line-progress-Under {
   margin-top: 1.5rem;
@@ -362,7 +362,7 @@ body {
   height: 25rem;
 }
 .about .timeline-item .ti-it .tl-icon {
-  color: var(--color-white);
+  color: var(--color-gray1);
 }
 .about .timeline-item .ti-it .tl-icon i {
   padding: 1rem 1rem;
@@ -396,7 +396,7 @@ body {
   width: 23rem;
   padding-top: 2rem;
   font-size: 1.5rem;
-  color: var(--color-white);
+  color: var(--color-gray1);
 }
 .about .timeline-item .ti-it .tl-text h1 span {
   color: var(--color-gray4);
