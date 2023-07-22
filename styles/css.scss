@@ -255,7 +255,7 @@ body {
         font-size: 18px;
         padding-top: 2rem;
         padding-left: 10px;
-        margin-right: 2rem;
+        padding-right: 6rem;
         color: var(--color-gray1);
       }
       .btn-don-about {
@@ -370,12 +370,11 @@ body {
   .timeline-item {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 10rem;
     width: 100%;
     .ti-it {
       display: flex;
-      margin-left: 5rem;
       margin-top: 2rem;
       width: 23rem;
       height: 25rem;

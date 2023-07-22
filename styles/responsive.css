@@ -9,6 +9,13 @@
    justify-content: space-around;
  }
 }
+@media screen and (max-width: 500px) {
+  .header-item button i{
+    font-size: .8rem;
+    padding: .3rem ;
+      margin: .3rem;
+ }
+}
 
 
 
@@ -24,9 +31,9 @@
 }
 @media screen and (max-width: 1250px) {
   .home > .container-home > .right-con-home {
-    padding-left: 8rem;
-    padding-right: 5rem;
+    padding: 0 8rem;
   }
+  
 }
 @media screen and (max-width: 1150px) {
   .home > .container-home > .right-con-home {
@@ -49,6 +56,12 @@
     padding-bottom: 6rem;
   }
 }
+@media screen and (max-width: 950px) {
+  .home > .container-home > .right-con-home {
+padding: 0 2rem;
+  }
+  
+}
 
 @media screen and (max-width: 600px) {
   .home > .container-home > .left-con-home > .imge-home img {
@@ -61,6 +74,9 @@
   .home > .container-home > .right-con-home p {
     font-size: 0.8rem;
   }
+  .home > .container-home > .right-con-home .btn-don-home{
+    font-size: .8rem;
+  }
 }
 
 /* about */
@@ -72,10 +88,13 @@
   .about .about-container .right-about{
     margin: 2rem 0;
   }
+  .about .about-container .left-about p{
+    width: 90%;
+  }
 
 
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .about > .timeline-item {
     grid-template-columns: auto;
   }
@@ -97,6 +116,13 @@
   .about > .stat-titel > .My-skills {
     margin: 1rem 35%;
   }
+  .about .timeline-item .ti-it .tl-text h1{
+    font-size: 1rem;
+  }
+  .about .timeline-item .ti-it .tl-text p{
+    font-size: .8rem;
+
+  }
   
 }
 @media screen and (max-width: 600px) {
@@ -112,13 +138,14 @@
     font-size: .8rem ;
   }
 
+
 }
 @media screen and (max-width: 500px) {
   .about > .main-titel > h1 {
-    font-size: 5rem !important;
+    font-size: 4.5rem !important;
   }
   .about > .main-titel > h2 {
-    font-size: 3.5rem !important;
+    font-size: 3rem !important;
   }
 
   .about .about-container .left-about {
@@ -127,16 +154,13 @@
   .about .about-container .left-about p{
     font-size: .5rem ;
   }
- 
-
-
 }
 @media screen and (max-width: 400px) {
   .about > .main-titel > h1 {
-    font-size: 4rem !important;
+    font-size: 2.5rem  !important;
   }
   .about > .main-titel > h2 {
-    font-size: 2.5rem !important;
+    font-size: 1.8rem  !important;
   }
 
   .about .about-container .right-about .right-about-item .container-about-right{
@@ -145,6 +169,15 @@
   }
   .about .about-container .right-about .right-about-item .container-about-right h1{
     font-size:2rem ;
+  }
+  .about .timeline-item .ti-it .tl-text h1{
+width: 15rem;  }
+  .about .timeline-item .ti-it .tl-text p{
+    width: 15rem;
+
+  }
+  .about .timeline-item .ti-it {
+    margin-left: 2rem;
   }
 }
 
