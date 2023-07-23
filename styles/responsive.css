@@ -89,21 +89,21 @@
   }
 }
 @media screen and (max-width: 1050px) {
-  .about > .transform .timeline-item {
+  .about > .timeline-item {
     grid-template-columns: auto;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .about > .transform .progress-bar-item {
+  .about > .progress-bar-item {
     padding-left: 1rem !important ;
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .about .transform .timeline-item .ti-it .tl-text h1 {
+  .about .timeline-item .ti-it .tl-text h1 {
     font-size: 1rem;
   }
-  .about .transform .timeline-item .ti-it .tl-text p {
+  .about .timeline-item .ti-it .tl-text p {
     font-size: 0.8rem;
   }
 }

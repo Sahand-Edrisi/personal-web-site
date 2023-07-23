@@ -192,14 +192,6 @@ body {
   overflow: hidden;
   height: 100%;
   width: 100%;
-  .transform {
-    transform: translateX(400%);
-    transition: all 2s ease;
-  }
-  .show {
-    transform: translateX(0);
-  }
-
   .about-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -211,6 +203,13 @@ body {
         width: 100%;
         height: 100%;
         justify-content: space-around;
+        .transform {
+          transform: translateX(1000%);
+          transition: all 2s ease;
+        }
+        .show {
+          transform: translateX(0);
+        }
       }
       .container-about-right {
         transition: all 2s ease-out;
@@ -221,6 +220,7 @@ body {
         width: 14rem;
         height: 17rem;
         border: 1px solid var(--color-gray6);
+
         h1 {
           font-size: 3rem;
           color: var(--color-green);
@@ -299,6 +299,13 @@ body {
     text-transform: uppercase;
     height: 100%;
     width: 100%;
+    .transform {
+      transform: translateX(1000%);
+      transition: all 2s ease;
+    }
+    .show {
+      transform: translateX(0);
+    }
     .line-hr {
       height: 0.5rem;
       margin: 3rem 7rem;
@@ -318,6 +325,13 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem 6rem;
+    .transform {
+      transform: translateX(1000%);
+      transition: all 2s ease;
+    }
+    .show {
+      transform: translateX(0);
+    }
     .progressBar {
       margin: 1rem;
 
@@ -374,6 +388,13 @@ body {
     justify-content: space-evenly;
     margin-bottom: 10rem;
     width: 100%;
+    .transform {
+      transform: translateX(1000%);
+      transition: all 2s ease;
+    }
+    .show {
+      transform: translateX(0);
+    }
     .ti-it {
       display: flex;
       margin-top: 2rem;
