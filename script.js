@@ -13,8 +13,6 @@ document.getElementById("change-theme").addEventListener("click", (e) => {
 
 const activeBtn = document.querySelectorAll(".hover");
 
-console.log(activeBtn);
-
 activeBtn.forEach((active) => {
   active.addEventListener("click", () => {
     removeActiveClasses();
@@ -40,8 +38,6 @@ const myBlogsClick = document.getElementById("myBlogsClick");
 const myBlogs = document.getElementById("myBlogs");
 const contactMeClick = document.getElementById("contactMeClick");
 const contactMe = document.getElementById("contactMe");
-
-console.log(homeClick);
 
 homeClick.addEventListener("click", () => {
   if (home.style.display === "none") {
@@ -91,3 +87,21 @@ contactMeClick.addEventListener("click", () => {
     contactMe.style.display = "block";
   }
 });
+
+const transformWeb = document.querySelectorAll(".transform");
+
+window.addEventListener("scroll", ShowTransform);
+
+function ShowTransform() {
+  const rtiggerBouttm = window.innerHeight / 1.01;
+
+  transformWeb.forEach((transform) => {
+    const barTop = transform.getBoundingClientRect().top;
+
+    if (barTop < rtiggerBouttm) {
+      transform.classList.add("show");
+    } else {
+      transform.classList.remove("show");
+    }
+  });
+}

@@ -186,6 +186,13 @@ body {
   height: 100%;
   width: 100%;
 }
+.about .transform {
+  transform: translateX(400%);
+  transition: all 2s ease;
+}
+.about .show {
+  transform: translateX(0);
+}
 .about .about-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -299,21 +306,21 @@ body {
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem 6rem;
 }
-.about .progress-bar-item .progress-bar {
+.about .progress-bar-item .progressBar {
   margin: 1rem;
 }
-.about .progress-bar-item .progress-bar .name-bar {
+.about .progress-bar-item .progressBar .name-bar {
   position: absolute;
   color: var(--color-gray1);
   margin-left: 20px;
 }
-.about .progress-bar-item .progress-bar .Percentage {
+.about .progress-bar-item .progressBar .Percentage {
   position: absolute;
   margin-top: 1rem;
   margin-left: 20px;
   color: var(--color-gray1);
 }
-.about .progress-bar-item .progress-bar .line-progress-Under {
+.about .progress-bar-item .progressBar .line-progress-Under {
   margin-top: 1.5rem;
   margin-left: 3.5rem;
   border: 2px solid var(--color-gray5);
@@ -322,27 +329,27 @@ body {
   height: 0.5rem;
   border-radius: 30px;
 }
-.about .progress-bar-item .progress-bar .line-progress-Under .line-progress-roy-html5 {
+.about .progress-bar-item .progressBar .line-progress-Under .line-progress-roy-html5 {
   border: 2px solid var(--color-green);
   width: 80%;
 }
-.about .progress-bar-item .progress-bar .line-progress-Under .line-progress-roy-css {
+.about .progress-bar-item .progressBar .line-progress-Under .line-progress-roy-css {
   border: 2px solid var(--color-green);
   width: 95%;
 }
-.about .progress-bar-item .progress-bar .line-progress-Under .line-progress-roy-JS {
+.about .progress-bar-item .progressBar .line-progress-Under .line-progress-roy-JS {
   border: 2px solid var(--color-green);
   width: 75%;
 }
-.about .progress-bar-item .progress-bar .line-progress-Under .line-progress-roy-react {
+.about .progress-bar-item .progressBar .line-progress-Under .line-progress-roy-react {
   border: 2px solid var(--color-green);
   width: 60%;
 }
-.about .progress-bar-item .progress-bar .line-progress-Under .line-progress-roy-Node {
+.about .progress-bar-item .progressBar .line-progress-Under .line-progress-roy-Node {
   border: 2px solid var(--color-green);
   width: 60%;
 }
-.about .progress-bar-item .progress-bar .line-progress-Under .line-progress-roy-PYTHON {
+.about .progress-bar-item .progressBar .line-progress-Under .line-progress-roy-PYTHON {
   border: 2px solid var(--color-green);
   width: 70%;
 }
@@ -423,6 +430,13 @@ body {
   margin-bottom: 8rem;
   justify-content: space-evenly;
 }
+.portfolio .portfolio-container .transform {
+  transform: translateX(-1000%);
+  transition: all 2s ease-in-out;
+}
+.portfolio .portfolio-container .show {
+  transform: translateX(0);
+}
 .portfolio .portfolio-item {
   display: flex;
   margin: 2rem 0;
@@ -490,6 +504,13 @@ body {
   margin: 0rem 5rem;
   margin-bottom: 8rem;
   justify-content: space-evenly;
+}
+.my-blogs .blogs-container .transform {
+  transform: translateX(-1000%);
+  transition: all 2s ease-in-out;
+}
+.my-blogs .blogs-container .show {
+  transform: translateX(0);
 }
 .my-blogs .blogs-container .blogs-item {
   width: 20rem;
