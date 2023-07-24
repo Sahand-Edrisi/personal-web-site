@@ -88,6 +88,8 @@ contactMeClick.addEventListener("click", () => {
   }
 });
 
+// Transform
+
 const transformWeb = document.querySelectorAll(".transform");
 
 window.addEventListener("scroll", ShowTransform);
