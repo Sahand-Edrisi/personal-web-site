@@ -200,13 +200,6 @@ body {
   height: 100%;
   justify-content: space-around;
 }
-.about .about-container .right-about .right-about-item .transform {
-  transform: translateX(1000%);
-  transition: all 2s ease;
-}
-.about .about-container .right-about .right-about-item .show {
-  transform: translateX(0);
-}
 .about .about-container .right-about .container-about-right {
   transition: all 2s ease-out;
   margin-top: 1rem;

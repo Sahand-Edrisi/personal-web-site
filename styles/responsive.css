@@ -87,6 +87,13 @@
   .about .about-container .left-about p {
     width: 90%;
   }
+  .about .about-container .right-about .right-about-item .transform {
+    transform: translateX(1000%);
+    transition: all 1.5s ease;
+  }
+  .about .about-container .right-about .right-about-item .show {
+    transform: translateX(0);
+  }
 }
 @media screen and (max-width: 1050px) {
   .about > .timeline-item {
