@@ -305,6 +305,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem 6rem;
+  align-items: center;
 }
 .about .progress-bar-item .transform {
   transform: translateX(1000%);
@@ -315,6 +316,7 @@ body {
 }
 .about .progress-bar-item .progressBar {
   margin: 1rem;
+  display: flex;
 }
 .about .progress-bar-item .progressBar .name-bar {
   position: absolute;
