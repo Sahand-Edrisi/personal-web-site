@@ -252,7 +252,7 @@
 
 /* Contact */
 @media screen and (max-width: 950px) {
-  .contact-me .contact-all-container .Contact-container .header p {
+  .contact-me .contact-all-container .contact-container .header p {
     width: 100%;
   }
   .contact-me .contact-all-container {
@@ -270,10 +270,10 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .contact-all-container .Contact-container .header h1 {
+  .contact-all-container .contact-container .header h1 {
     font-size: 1.5rem !important;
   }
-  .contact-all-container .Contact-container .header p {
+  .contact-all-container .contact-container .header p {
     font-size: 0.8rem !important;
   }
   .contact-item .contact-icon i {
@@ -288,14 +288,14 @@
 }
 
 @media screen and (max-width: 420px) {
-  .contact-me .contact-all-container .Contact-item-all .contact-item {
+  .contact-me .contact-all-container .contact-item-all .contact-item {
     grid-template-columns: auto;
     margin: 1.5rem 0;
   }
 
   .contact-me
     .contact-all-container
-    .Contact-item-all
+    .contact-item-all
     .contact-item
     .contact-icon {
     margin: 1rem 0rem;
