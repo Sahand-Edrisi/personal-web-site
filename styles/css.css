@@ -283,7 +283,7 @@ body {
 }
 .about .stat-titel .transform {
   transform: translateX(1000%);
-  transition: all 2s ease;
+  transition: all 0.5s ease;
 }
 .about .stat-titel .show {
   transform: translateX(0);
@@ -309,7 +309,7 @@ body {
 }
 .about .progress-bar-item .transform {
   transform: translateX(1000%);
-  transition: all 2s ease;
+  transition: all 0.5s ease;
 }
 .about .progress-bar-item .show {
   transform: translateX(0);
@@ -371,7 +371,7 @@ body {
 }
 .about .timeline-item .transform {
   transform: translateX(1000%);
-  transition: all 2s ease;
+  transition: all 0.5s ease;
 }
 .about .timeline-item .show {
   transform: translateX(0);
@@ -448,7 +448,7 @@ body {
 }
 .portfolio .portfolio-container .transform {
   transform: translateX(-1000%);
-  transition: all 2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .portfolio .portfolio-container .show {
   transform: translateX(0);
@@ -523,7 +523,7 @@ body {
 }
 .my-blogs .blogs-container .transform {
   transform: translateX(-1000%);
-  transition: all 2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .my-blogs .blogs-container .show {
   transform: translateX(0);

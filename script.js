@@ -46,6 +46,7 @@ homeClick.addEventListener("click", () => {
     myBlogs.style.display = "none";
     contactMe.style.display = "none";
     home.style.display = "block";
+    window.scrollTo(0, 0);
   }
 });
 aboutClick.addEventListener("click", () => {
@@ -55,6 +56,7 @@ aboutClick.addEventListener("click", () => {
     myBlogs.style.display = "none";
     contactMe.style.display = "none";
     about.style.display = "block";
+    window.scrollTo(0, 0);
   }
 });
 
@@ -65,6 +67,7 @@ portfolioClick.addEventListener("click", () => {
     myBlogs.style.display = "none";
     contactMe.style.display = "none";
     portfolio.style.display = "block";
+    window.scrollTo(0, 0);
   }
 });
 
@@ -75,6 +78,7 @@ myBlogsClick.addEventListener("click", () => {
     contactMe.style.display = "none";
     about.style.display = "none";
     myBlogs.style.display = "block";
+    window.scrollTo(0, 0);
   }
 });
 
@@ -85,6 +89,7 @@ contactMeClick.addEventListener("click", () => {
     about.style.display = "none";
     myBlogs.style.display = "none";
     contactMe.style.display = "block";
+    window.scrollTo(0, 0);
   }
 });
 

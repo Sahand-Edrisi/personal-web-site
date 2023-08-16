@@ -294,7 +294,7 @@ body {
     width: 100%;
     .transform {
       transform: translateX(1000%);
-      transition: all 2s ease;
+      transition: all 0.5s ease;
     }
     .show {
       transform: translateX(0);
@@ -321,7 +321,7 @@ body {
     align-items: center;
     .transform {
       transform: translateX(1000%);
-      transition: all 2s ease;
+      transition: all 0.5s ease;
     }
     .show {
       transform: translateX(0);
@@ -385,7 +385,7 @@ body {
     width: 100%;
     .transform {
       transform: translateX(1000%);
-      transition: all 2s ease;
+      transition: all 0.5s ease;
     }
     .show {
       transform: translateX(0);
@@ -465,7 +465,7 @@ body {
     justify-content: space-evenly;
     .transform {
       transform: translateX(-1000%);
-      transition: all 2s ease-in-out;
+      transition: all 0.5s ease-in-out;
     }
     .show {
       transform: translateX(0);
@@ -544,7 +544,7 @@ body {
     justify-content: space-evenly;
     .transform {
       transform: translateX(-1000%);
-      transition: all 2s ease-in-out;
+      transition: all 0.5s ease-in-out;
     }
     .show {
       transform: translateX(0);
