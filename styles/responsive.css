@@ -9,6 +9,17 @@
     justify-content: space-around;
   }
 }
+@media screen and (max-height: 528px) {
+  .header-item {
+    background-color: var(--color-gray6);
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 101;
+    display: flex;
+    justify-content: space-around;
+  }
+}
 @media screen and (max-width: 500px) {
   .header-item button i {
     font-size: 0.8rem;
