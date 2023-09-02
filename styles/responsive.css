@@ -145,9 +145,9 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .about .progress-bar-item{
+  .about .progress-bar-item {
     padding: 2rem 4rem;
-  }  
+  }
   .about .about-container .left-about {
     font-size: 0.6rem;
   }
@@ -165,9 +165,9 @@
   .about > .main-titel > h2 {
     font-size: 1.8rem !important;
   }
-  .about .progress-bar-item{
+  .about .progress-bar-item {
     padding: 1rem 2rem;
-  }  
+  }
 
   .about
     .about-container
@@ -232,7 +232,7 @@
 
 /* My Blogs */
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1250px) {
   .my-blogs > .blogs-container {
     grid-template-columns: auto auto;
   }

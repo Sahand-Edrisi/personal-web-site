@@ -692,26 +692,24 @@ body {
       justify-content: center;
       input {
         background-color: var(--color-gray8);
-        color: var(--color-gray1);
-        border-radius: 30px;
+        color: var(--color-gray2);
+        border-radius: 20px;
         margin-top: 1.5rem;
         width: 100%;
         outline: none;
-        padding: 0.5rem 0.7rem;
+        padding: .8rem 0.7rem;
         border: 0px;
       }
 
       textarea {
         width: 100%;
         background-color: var(--color-gray8);
-        color: var(--color-gray1);
-        border-radius: 30px;
+        color: var(--color-gray2);
+        border-radius: 20px;
         border: none;
-        margin-top: 0.5rem;
         outline: none;
-        padding-left: 0.7rem;
-        padding-top: 0.5rem;
-        margin-top: 0.9rem;
+        padding: .8rem .7rem;
+        margin-top: 1.5rem;
         resize: none;
       }
     }
