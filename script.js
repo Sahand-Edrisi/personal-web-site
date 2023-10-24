@@ -19,7 +19,6 @@ activeBtn.forEach((active) => {
     active.classList.add("active");
   });
 });
-
 function removeActiveClasses() {
   activeBtn.forEach((active) => {
     active.classList.remove("active");
