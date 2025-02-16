@@ -446,13 +446,6 @@ body {
   margin-bottom: 8rem;
   justify-content: space-evenly;
 }
-.portfolio .portfolio-container .transform {
-  transform: translateX(-1000%);
-  transition: all 0.5s ease-in-out;
-}
-.portfolio .portfolio-container .show {
-  transform: translateX(0);
-}
 .portfolio .portfolio-item {
   display: flex;
   margin: 2rem 0;
@@ -479,7 +472,6 @@ body {
   display: none;
   left: 0;
   position: relative;
-  transition: 3s ease-in-out;
 }
 .portfolio .portfolio-hover h3 {
   margin-top: 6rem;
