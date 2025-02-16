@@ -78,7 +78,7 @@ body {
   color: var(--color-white);
 }
 
-.main-titel {
+.main-title {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
@@ -86,19 +86,19 @@ body {
   padding: 2rem 0;
   width: 100%;
 }
-.main-titel h1 {
+.main-title h1 {
   position: absolute;
   opacity: 0.3;
   z-index: -1;
   font-size: 7.5rem;
   color: var(--color-gray5);
 }
-.main-titel h2 {
+.main-title h2 {
   padding: 1.5rem 4.5rem;
   font-size: 4.5rem;
   color: var(--color-gray1);
 }
-.main-titel h2 span {
+.main-title h2 span {
   color: var(--color-green);
 }
 
@@ -273,7 +273,7 @@ body {
 .about .about-container .left-about .btn-don-about a:hover {
   background-position: 100% 100%;
 }
-.about .stat-titel {
+.about .stat-title {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -281,19 +281,19 @@ body {
   height: 100%;
   width: 100%;
 }
-.about .stat-titel .transform {
+.about .stat-title .transform {
   transform: translateX(1000%);
   transition: all 0.5s ease;
 }
-.about .stat-titel .show {
+.about .stat-title .show {
   transform: translateX(0);
 }
-.about .stat-titel .line-hr {
+.about .stat-title .line-hr {
   height: 0.5rem;
   margin: 3rem 7rem;
   background-color: var(--color-green);
 }
-.about .stat-titel .My-skills {
+.about .stat-title .My-skills {
   color: var(--color-gray1);
   font-size: 1.5rem;
   font-weight: 900;
@@ -434,7 +434,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.portfolio .titel {
+.portfolio .title {
   color: var(--color-gray1);
   display: flex;
   justify-content: center;
@@ -549,7 +549,7 @@ body {
   margin-left: -0.7rem;
   margin-top: -0.3rem;
 }
-.my-blogs .blogs-container .blogs-titel {
+.my-blogs .blogs-container .blogs-title {
   background-color: var(--color-gray6);
   width: 20rem;
   height: 22rem;
@@ -557,13 +557,13 @@ body {
   transition: all 1s ease-in-out;
   position: absolute;
 }
-.my-blogs .blogs-container .blogs-titel h3 {
+.my-blogs .blogs-container .blogs-title h3 {
   color: var(--color-white);
 }
-.my-blogs .blogs-container .blogs-titel h3:hover {
+.my-blogs .blogs-container .blogs-title h3:hover {
   color: var(--color-green);
 }
-.my-blogs .blogs-container .blogs-titel p {
+.my-blogs .blogs-container .blogs-title p {
   color: var(--color-gray4);
 }
 .my-blogs .blogs-container .blogs-item:hover img {
@@ -573,7 +573,7 @@ body {
   position: relative;
   z-index: 100;
 }
-.my-blogs .blogs-container .blogs-item:hover .blogs-titel {
+.my-blogs .blogs-container .blogs-item:hover .blogs-title {
   transform: translateY(-10px);
   transition: all 1s ease-in-out;
   position: absolute;

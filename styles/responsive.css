@@ -137,10 +137,10 @@
   .about .about-container .left-about p {
     font-size: 0.8rem;
   }
-  .about > .main-titel > h1 {
+  .about > .main-title > h1 {
     font-size: 4.5rem !important;
   }
-  .about > .main-titel > h2 {
+  .about > .main-title > h2 {
     font-size: 3rem !important;
   }
 }
@@ -159,10 +159,10 @@
   }
 }
 @media screen and (max-width: 400px) {
-  .about > .main-titel > h1 {
+  .about > .main-title > h1 {
     font-size: 2.5rem !important;
   }
-  .about > .main-titel > h2 {
+  .about > .main-title > h2 {
     font-size: 1.8rem !important;
   }
   .about .progress-bar-item {
@@ -207,25 +207,26 @@
 @media screen and (max-width: 800px) {
   .portfolio > .portfolio-container {
     grid-template-columns: auto;
+    justify-content: center;
   }
-  .portfolio > .titel {
+  .portfolio > .title {
     font-size: 0.8rem;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .portfolio > .main-titel > h1 {
+  .portfolio > .main-title > h1 {
     font-size: 4.5rem;
   }
-  .portfolio > .main-titel > h2 {
+  .portfolio > .main-title > h2 {
     font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 400px) {
-  .portfolio > .main-titel > h1 {
+  .portfolio > .main-title > h1 {
     font-size: 3rem;
   }
-  .portfolio > .main-titel > h2 {
+  .portfolio > .main-title > h2 {
     font-size: 1.8rem;
   }
 }
@@ -241,22 +242,23 @@
 @media screen and (max-width: 850px) {
   .my-blogs > .blogs-container {
     grid-template-columns: auto;
+    justify-content: center;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .my-blogs > .main-titel > h1 {
+  .my-blogs > .main-title > h1 {
     font-size: 4.5rem;
   }
-  .my-blogs > .main-titel > h2 {
+  .my-blogs > .main-title > h2 {
     font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 450px) {
-  .my-blogs > .main-titel > h1 {
+  .my-blogs > .main-title > h1 {
     font-size: 3rem;
   }
-  .my-blogs > .main-titel > h2 {
+  .my-blogs > .main-title > h2 {
     font-size: 1.8rem;
   }
 }
@@ -273,10 +275,10 @@
 }
 
 @media screen and (max-width: 650px) {
-  .contact-me > .main-titel > h1 {
+  .contact-me > .main-title > h1 {
     font-size: 4.5rem;
   }
-  .contact-me > .main-titel > h2 {
+  .contact-me > .main-title > h2 {
     font-size: 3.5rem;
   }
 }
@@ -316,10 +318,10 @@
     font-size: 0.8rem;
   }
 
-  .contact-me > .main-titel > h1 {
+  .contact-me > .main-title > h1 {
     font-size: 3rem;
   }
-  .contact-me > .main-titel > h2 {
+  .contact-me > .main-title > h2 {
     font-size: 1.8rem;
   }
 }

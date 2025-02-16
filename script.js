@@ -1,4 +1,4 @@
-// cheange-theme
+// change-theme
 
 document.body.classList.add("dark-theme");
 document.getElementById("change-theme").addEventListener("click", (e) => {
@@ -25,7 +25,7 @@ function removeActiveClasses() {
   });
 }
 
-// cheange-page
+// change-page
 
 const homeClick = document.getElementById("homeClick");
 const home = document.getElementById("home");
